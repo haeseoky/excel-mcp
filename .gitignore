@@ -14,3 +14,26 @@ __pycache__/
 venv/
 ENV/
 env/
+
+# Excel MCP Server specific
+excel_mcp.log
+*.xlsx
+*.xls
+claude_desktop_config.json
+products.xlsx
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Test and temporary files
+test_output/
+temp/
+*.tmp
+
+# Local Claude Desktop config (sensitive)
+claude_desktop_config.json
+
+# Backup files
+*.bak
+*.backup
